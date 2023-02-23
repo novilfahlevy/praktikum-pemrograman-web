@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Belajar Website</h1>
+    <form action="/" method="POST">
+      <div>
+        <label for="name">Nama:</label>
+        <input type="text" name="name">
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+      </div>
+
+      <div>
+        <label for="angkatan">Angkatan:</label>
+        <input type="radio" name="angkatan" value="2021"> 2021
+        <input type="radio" name="angkatan" value="2022"> 2022
+      </div>
+
+      <div>
+        <label for="matkul">Matkul:</label>
+        <input type="checkbox" name="matkul" value="WEB"> WEB
+        <input type="checkbox" name="matkul" value="DATA MINING"> DATA MINING
+        <input type="checkbox" name="matkul" value="KEAMANAN INFORMASI"> KEAMANAN INFORMASI
+      </div>
+
+      <div>
+        <label for="kelas">Kelas:</label>
+        <select name="kelas" id="kelas">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="foto">Foto</label>
+        <input type="file" name="foto" id="foto">
+      </div>
+
+      <div>
+        <label for="pendapat">Pendapat anda:</label>
+        <textarea name="pendapat" id="pendapat" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Kirim</button>
+      </div>
+    </form>
+  </body>
+</html>
